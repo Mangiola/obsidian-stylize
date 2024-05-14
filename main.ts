@@ -99,7 +99,7 @@ export default class TagStylesPlugin extends Plugin {
 			// Add class for this file's current folder, if any
 			const filePath = view.file.path;
 			if (filePath.contains("/")) {
-				classes.push("tag-"+filePath.replace(" ", "").split("/")[0]);
+				classes.push("folder-"+filePath.replace(" ", "").split("/")[0]);
 			}
 
 			if (this.isReadMode(view)) {
