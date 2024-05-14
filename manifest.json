@@ -1,11 +1,11 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "mangiola-stylize",
+	"name": "Stylize",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"description": "Lets you style pages based on tags and folders. Also allows you to style SVG embeds.",
+	"author": "Mangiola",
+	"authorUrl": "https://github.com/Mangiola",
+	"fundingUrl": "https://github.com/Mangiola",
 	"isDesktopOnly": false
 }
