@@ -7,16 +7,13 @@ Some assorted features that are useful for using CSS in your vault on a per-page
 - Paragraphs with a tag receive a CSS class that matches the tag name
 - Embedded SVG images can now be styled with CSS
 
+![Plugin example animation](assets/BasicExample.gif)
+
+Read more on the [wiki](https://github.com/Mangiola/obsidian-stylize/wiki).
+
 ## Development Setup
 
-- `npm i`
-- `npm run dev`
-
-### Update Dependencies
-
-`npm version patch`, `npm version minor` or `npm version major` after updating `minAppVersion` manually in `manifest.json`.
-
-### Releasing Updates
-
-- Update `manifest.json` version number
-- Update `versions.json` obsidian version
+```
+npm i
+npm run dev
+```
